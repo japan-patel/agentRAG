@@ -1,0 +1,8 @@
+chroma_db
+hf
+.env
+docker-compose-dev.yaml
+docker-compose.yaml
+Dockerfile
+Dockerfile_dev
+README.md

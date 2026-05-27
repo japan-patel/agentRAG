@@ -1,0 +1,11 @@
+services:
+    agentrag:
+        image: agentrag:dev1
+        ports:
+            - 8080:8501
+        volumes:
+            - ./:/home/app/
+        environment:
+            - LM_STUDIO_HOST=172.20.10.2
+            - LM_STUDIO_PORT=1234
+        command: sleep infinity
